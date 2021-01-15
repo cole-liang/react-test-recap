@@ -1,0 +1,23 @@
+{
+  "name": "react-test-recap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cole-liang/react-test-recap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cole-liang/react-test-recap/issues"
+  },
+  "homepage": "https://github.com/cole-liang/react-test-recap#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
