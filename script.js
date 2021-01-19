@@ -9,9 +9,11 @@ googleDatabase = [
   "soupforhero.com",
 ];
 
-const googleSearch = (search) => {
-  const matches = googleDatabase.filter((website) => website.includes(search));
+const googleSearch = (search, db) => {
+  const matches = db.filter((website) => website.includes(search));
   return matches.length > 3 ? matches.slice(0, 3) : matches;
 };
 
-console.log(googleSearch("cat"));
+// console.log(googleSearch("cat"));
+
+module.exports = { googleSearch };
